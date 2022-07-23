@@ -1,8 +1,10 @@
-const ftoc = function() {
+const ftoc = function(f) {
+  return (f-32)* 5/9;
 
 };
 
-const ctof = function() {
+const ctof = function(c) {
+  return (c*9/5)+32;
 
 };
 
